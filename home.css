@@ -1,0 +1,46 @@
+/* Links inside the navigation bar */
+.navbar a {
+    float:right;
+    color: rgb(40, 175, 6);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+  
+  /* Higlighting links on hover */
+  .navbar a:hover {
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 5, 3);
+  }
+  
+
+  body {
+      background-color: #110f0f
+  }
+  #text { font-family: Montserrat;
+    font-family: "Gill Sans", sans-serif;
+    font-style: italic;
+    margin-top:10% ;
+    font-size: 30px;
+    line-height: 50px;
+    word-wrap: break-word;
+    width: 60%;  
+    color: #a53737;
+text-align: center;}
+
+#name {
+  font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-left: 25px;
+    color: #2517e7;
+ }
+#img {float: right;
+width: 40%;
+margin-right: -20%;
+margin-top: 10%;}
+
+.navbar a.active-page {background-color: rgb(226, 241, 12);}
